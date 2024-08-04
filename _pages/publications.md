@@ -16,7 +16,7 @@ years: [2024, 2023, 2022, 2021, 2020]
 <div class="publications">
 
 {%- for section in page.sections %}
-  <a id="{{section.text}}"></a>
+<a id="{{section.text}}"></a>
   <p class="bibtitle">{{section.text}}</p>
   {%- for y in page.years %}
 
@@ -33,7 +33,7 @@ years: [2024, 2023, 2022, 2021, 2020]
 
     {%- endif -%}
 
-  {%- endfor %}
+{%- endfor %}
 
 {%- endfor %}
 
