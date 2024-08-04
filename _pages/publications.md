@@ -28,4 +28,3 @@ bibtypes:
   </div>
 
 {% endfor %}
-

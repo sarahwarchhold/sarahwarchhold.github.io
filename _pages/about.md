@@ -2,20 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Hello there!</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Sarah Warchhold</p>
+    <p>PhD student</p>
+    <p>sarah.warchhold@uni.kn</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Sarah
+I'm currently a PhD student in the [Baby Speech Lab](https://www.ling.uni-konstanz.de/bsl/angebote-fuer-zu-hause/babylab-app/) at the University of Konstanz, Germany. The [DFG funded](https://gepris.dfg.de/gepris/projekt/467317876?context=projekt&task=showDetail&id=467317876&) project I'm working on focuses on the influence of regional variants on phonological word representation in toddlers. 
+
+In my dissertation, I investigate the mental representations of varietal word forms in toddlers growing up in Germany or Switzerland (supervised by [Prof. Dr. Bettina Braun](https://www.ling.uni-konstanz.de/braun-zinn/prof-dr-bettina-braun/) and [Prof. Dr. Tamara Rathcke](https://tamara-rathcke.github.io/)).
