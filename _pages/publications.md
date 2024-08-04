@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications&Talks
-description: 
+description:
 nav: true
 nav_order: 4
 post-header: true
@@ -10,12 +10,13 @@ bibtypes:
   - bibquery: "@article"
   - bibquery: "@inproceedings"
   - bibquery: "@misc|@thesis"
+  - bibquery: "@book"
 ---
 
 {% for bibtype in page.bibtypes %}
-  {% capture category_counter %}
-  {% bibliography_count -f {{site.scholar.bibliography}} -q {{bibtype.bibquery}} %}
-  {% endcapture %}
+{% capture category_counter %}
+{% bibliography_count -f {{site.scholar.bibliography}} -q {{bibtype.bibquery}} %}
+{% endcapture %}
 
   <div style="counter-reset:bibitem {{ category_counter | plus:1 }}">
   <div class="publications">
