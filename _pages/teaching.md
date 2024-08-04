@@ -1,13 +1,58 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: Courses & tutorials at the University of Konstanz.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<font size="+2"><u>Courses</u></font>
 
-Organize your courses by years, topics, or universities, however you like!
+<p><font size="+1"><i>Summer semester 2023</i></font></p>
+
+<ul>
+  <li><i>Linguistic landspace in Konstanz</i></li>
+      <ul>
+          <li>
+              (BA-level, together with Dr. Susan Reichelt. [Have a look at our open access materials!](https://zenodo.org/records/10200678) )
+          </li>
+
+      </ul>
+
+</ul>
+
+<br>
+
+<p><font size="+1"><i>Winter semester 2022/23</i></font></p>
+
+<ul>
+  <li><i>Standard-Dialekt</i></li>
+      <ul>
+          <li>
+              (BA-level, together with Prof. Dr. Bettina Braun)
+          </li>
+
+      </ul>
+
+</ul>
+
+<br>
+
+<font size="+2"><u>Tutorials</u></font>
+
+<p><font size="+1"><i>Winter semester 2018/19</i></font></p>
+
+<ul>
+  <li>Tutorial for <i>Introduction to Linguistics</i></li>
+      <ul>
+          <li>
+              (BA-level, at the University of Freiburg)
+          </li>
+
+      </ul>
+
+</ul>
+
+
 
