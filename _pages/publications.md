@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications&Talks
+title: publications&talks
 description: 
 nav: true
 nav_order: 4
@@ -9,10 +9,10 @@ post-header: true
 bibtypes:
   - bibquery: "@inproceedings"
     text: "Conferences"
-  - bibquery: "@misc|@thesis"
-    text: "Presentations at conferences"
+  - bibquery: "@misc"
+    text: "Open Educational Resources"
   - bibquery: "@book"
-    text: "Edited"
+    text: "Published"
 ---
 
 {% for bibtype in page.bibtypes %}

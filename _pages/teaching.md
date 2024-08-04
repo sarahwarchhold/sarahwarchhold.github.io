@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching
+title: teaching
 description: Courses & tutorials at the University of Konstanz.
 nav: true
 nav_order: 5
@@ -53,6 +53,3 @@ nav_order: 5
       </ul>
 
 </ul>
-
-
-
