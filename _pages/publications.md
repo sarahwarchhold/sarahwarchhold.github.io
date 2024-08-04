@@ -16,9 +16,9 @@ bibtypes:
 ---
 
 {% for bibtype in page.bibtypes %}
-  {% capture category_counter %}
-    {% bibliography_count -f {{ site.scholar.bibliography }} -q {{ bibtype.bibquery }} %}
-  {% endcapture %}
+{% capture category_counter %}
+{% bibliography_count -f {{ site.scholar.bibliography }} -q {{ bibtype.bibquery }} %}
+{% endcapture %}
 
   <div style="counter-reset:bibitem {{ category_counter | plus:1 }}">
     <div class="publications">
