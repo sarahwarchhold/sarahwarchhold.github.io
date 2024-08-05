@@ -7,10 +7,10 @@ nav: true
 nav_order: 4
 post-header: true
 bibtypes:
-  - bibquery: "@article"
-  - bibquery: "@inproceedings"
   - bibquery: "@misc|@thesis"
   - bibquery: "@book"
+  - bibquery: "@article"
+  - bibquery: "@inproceedings"
 ---
 
 {% for bibtype in page.bibtypes %}
