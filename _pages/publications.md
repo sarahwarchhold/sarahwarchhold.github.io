@@ -13,15 +13,15 @@ bibtypes:
   - bibquery: "@inproceedings"
 ---
 
-{% for bibtype in page.bibtypes %}
-{% capture category_counter %}
-{% bibliography_count -f {{site.scholar.bibliography}} -q {{bibtype.bibquery}} %}
-{% endcapture %}
 
-  <div style="counter-reset:bibitem {{ category_counter | plus:1 }}">
-  <div class="publications">
-  <h3 class="type">{{bibtype.text}}</h3>
-    {% bibliography -f {{site.scholar.bibliography}} -q {{bibtype.bibquery}} %}
-  </div>
+<!-- _pages/publications.md -->
 
-{% endfor %}
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
