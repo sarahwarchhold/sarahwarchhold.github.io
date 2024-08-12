@@ -12,6 +12,7 @@ bibtypes:
   - bibquery: "@article"
   - bibquery: "@inproceedings"
 ---
+
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
