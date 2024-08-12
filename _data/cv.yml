@@ -1,150 +1,97 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Albert Einstein
+    - name: Date of Birth
+      value: 14th March 1879
+    - name: Languages
+      value: English, German
+
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Konstanz, Konstanz, Germany
-      year: 2023
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Linguistics, First language acquisition
-        - Dissertation (working title): Mental representations of varietal wordforms in toddlers
-
-    - title: MA
-      institution: University of Freiburg, Germany
-      year: 2016-2019
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - German Linguistics
+        - Description 1.
+        - Description 2.
 
-    - title: BA
-      institution: University of Freiburg, Germany
-      year: 2013-2016
-      description:
-        - German language and literature studies, History of Art
-
-
-- title: Languages
-  type: list
-  contents:
-    - language: German
-      fluency: native
-      icon: ""
-    - language: English
-      fluency: fluent
-      icon: ""
-
-- title: Technical skills
-  type: list
-  contents:
-    - name: Computational
-      level: Master
-      icon: fa-solid fa-hashtag
-      keywords:
-        - R & R-Studio
-        - Praat
-        - Python (beginner/intermediate)
-    - name: General & others
-      level: Master
-      icon: fa-solid fa-hashtag
-      keywords:
-        - LaTex
-        - MS Office
-        - ELAN
-        - Gorilla
-        - PsychoPy
-        - SoSciSurvey
-        - Zotero
-        - Gimp
-
-- title: Work experience (selected)
+- title: Experience
   type: time_table
   contents:
-    - name: AG Braun / Baby Speech Lab, Department of Linguistics, University of Konstanz
-      position: Research assistant
-      startDate: 2022-03
-      endDate: ""
-      summary: DFG funded project, grant to Prof. Dr. Bettina Braun
-      highlights:
-        - The influence of regional varieties on word form representations in toddlers
-    - name: Der Faktor Mensch in der Mensch-Maschine Interaktion, Department of Linguistics, University of Freiburg
-      position: Research assistant
-      startDate: 2020-04
-      endDate: 2022-03
-      summary: Funded by Vectorstiftung to Dr. Daniel Duran
-      highlights:
-        - Development and implementation of psycholinguistic experiments
-        - Organization of an interdisciplinary conference for young researchers (SpoHuMa21)
-    - name: Analyse multimodaler Interaktion beim Geschichtenerzählen, Department of Linguistics, University of Freiburg
-      position: Research assistant
-      startDate: 2020-04
-      endDate: 2022-03
-      summary: DFG funded project, grant to Dr. Christoph Rühlemann
-    - name: Neuromedical AI Lab / Translational Neurotechnology (Prof. Dr. Tonio Ball), University Clinic in Freiburg
-      position: Research internship
-      startDate: 2018-09
-      endDate: 2018-12
-      highlights:
-        - Questions at the interface
-    - name: Leibniz-Institut für Deutsche Sprache (IDS), Pragmatics, Mannheim
-      position: Research internship
-      startDate: 2018-06
-      endDate: 2018-07
-      highlights:
-        - Questions at the interface
-    - name: Max Kade Institute for German-American Studies in Madison, Wisconsin, USA, with Prof. Mark Louden
-      position: Research internship
-      startDate: 2018-02
-      endDate: 2018-04
-      summary: Funded by Verband der Freunde der Universität Freiburg e.V.
-      highlights:
-        - Dialectological analyses of Pomerano
-        - Corpus analysis
-    - name: AG Pfeiffer, University of Freiburg
-      position: Research internship
-      startDate: 2017-10
-      endDate: 2018-01
-      highlights:
-        - Exclamatives in first language acquisition
+    - title: Professor of Theoretical Physics
+      institution: Institute for Advanced Study, Princeton University
+      year: 1933 - 1955
+      description:
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
+          contents:
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Visiting Professor
+      institution: California Institute of Technology, Pasadena, California, US
+      year: 1933
+      description:
+        - Description 1.
+        - Description 2.
 
-- title: Institutional/organizational activities
+    - title: Director
+      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
+      year: 1917-1933
+
+    - title: Professor of Theoretical Physics
+      institution: Karl-Ferdinand University, Prague, Czechoslovakia
+      year: 1911 - 1917
+      description:
+
+    - title: Associate Professor of Theoretical Physics
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1909 - 1911
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+      year: 2015-now
+      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 1921
+      items:
+        - Nobel Prize in Physics
+        - Matteucci Medal
+    - year: 2029
+      items:
+        - Max Planck Medal
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topic 1.
+      items:
+        - Description 1.
+        - Description 2.
+    - title: Topic 2.
+      items:
+        - Description 1.
+        - Description 2.
+
+- title: Other Interests
   type: list
   contents:
-    - organization: University of Konstanz
-      position: Committee member of the Equal Opportunities Council
-      url: https://www.uni-konstanz.de/en/university/administration-and-organisation/university-bodies-and-committees/university-of-konstanz-committees/equal-opportunity-council/
-      startDate: 2022-10
-      endDate: ""
-    - organization: University of Konstanz
-      position: Committee member of the Departmental Council of Linguistics
-      url: https://www.uni-konstanz.de/en/university/administration-and-organisation/university-bodies-and-committees/departmental-bodies/department-of-linguistics/departmental-council-of-linguistics/
-      startDate: 2023-10
-      endDate: ""
-
-- title: Grants
-  type: list
-  contents:
-    - title: Grant for an international research internship
-      date: 2018-02
-      awarder: Verband der Freunde der Universität Freiburg e.V.
-      url: https://www.freunde.uni-freiburg.de/
-      summary: 3-months-internship at Max-Kade Institute in Madison, Wisconsin, USA
-    - title: Grant for organizing an International Conference: Human Perspectives on Spoken Human-Machine Interaction
-      date: 2018-02
-      awarder: Freiburg Institute of Advanced Sciences (FRIAS)
-      url: https://freidok.uni-freiburg.de/data/223814
-      summary: Together with Dr. Daniel Duran, Dr. Iona Gessinger & Dr. Eran Raveh
-
-
-# - title: Academic Interests
-#  type: nested_list
-#  contents:
-#    - title: Topic 1.
-#      items:
-#        - Description 1.
-#       - Description 2.
-#    - title: Topic 2.
-#      items:
-#        - Description 1.
-#        - Description 2.
-#- title: Other Interests
-#  type: list
-#  contents:
-#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
