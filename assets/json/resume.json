@@ -1,0 +1,180 @@
+{
+  "basics": {
+    "name": "Albert Einstein",
+    "label": "Scientist",
+    "image": "",
+    "email": "albert@einstein.de",
+    "phone": "(912) 123-4567",
+    "url": "https://alshedivat.github.io/al-folio/",
+    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "location": {
+      "address": "2712 Broadway St",
+      "postalCode": "CA 94115",
+      "city": "San Francisco",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "AlbertEinstein",
+        "url": "https://twitter.com/AlbertEinstein"
+      }
+    ]
+  },
+  "Education": [
+    {
+      "institution": "University of Konstanz, Germany",
+      "location": "Konstanz, Germany",
+      "url": "https://www.uni-konstanz.de/",
+      "area": "Linguistics",
+      "studyType": "PhD",
+      "startDate": "2023-04",
+      "endDate": "now",
+      "courses": ["Dissertation (working title): Mental representations of varietal wordforms in toddlers"]
+    },
+    {
+      "institution": "University of Freiburg, Germany",
+      "location": "Freiburg, Germany",
+      "area": "German Linguistics",
+      "studyType": "MA",
+      "startDate": "2016-10",
+      "endDate": "2019-09",
+      "courses": ["Thesis: Lexical diversity in scene descriptions of adolescents"]
+    },
+    {
+      "institution": "University of Freiburg, Germany",
+      "location": "Freiburg, Germany",
+      "area": "German Linguistics",
+      "studyType": "BA",
+      "startDate": "2013-10",
+      "endDate": "2016-09",
+      "score": "10",
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "native",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "fluent",
+      "icon": ""
+    }
+  ],
+  "technical skills": [
+    {
+      "name": "Computational",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "R & R-Studio",
+        "Praat",
+        "Python (beginner/intermediate)"
+      ]
+    },
+    {
+      "name": "General&others",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "LaTex",
+        "MS Office",
+        "ELAN",
+        "Gorilla",
+        "PsychoPy",
+        "SoSciSurvey",
+        "Zotero",
+        "Gimp"
+      ]
+    }
+  ],
+  "work experience (selected)": [
+    {
+      "name": "AG Braun / Baby Speech Lab, Department of Linguistics, University of Konstanz",
+      "position": "Research assistant",
+      "startDate": "2022-03",
+      "endDate": "",
+      "summary": "DFG funded project, grant to Prof. Dr. Bettina Braun",
+      "highlights": ["The influence of reginal varieties on wort form representations in toddlers"]
+    },
+    {
+      "name": "Der Faktor Mensch in der Mensch-Maschine Interaktion, Department of Linguistics, University of Freiburg",
+      "position": "Research assistant",
+      "startDate": "2020-04",
+      "endDate": "2022-03",
+      "summary": "Funded by Vectorstiftung to Dr. Daniel Duran",
+      "highlights": ["Development and implementation of psycholinguistic experiments, organisation of organisation of an interdisciplinary conference for young researchers (SpoHuMa21)"]
+    },
+    {
+      "name": "Analyse multimodaler Interaktion beim Geschichtenerzählen, Department of Linguistics, University of Freiburg",
+      "position": "Research assistant",
+      "startDate": "2020-04",
+      "endDate": "2022-03",
+      "summary": "DFG funded project, grant to Dr. Christoph Rühlemann",
+    },
+    {
+      "name": "Neuromedical AI Lab / Translational Neurotechnology (Prof. Dr. Tonio Ball), University Clinic in Freiburg",
+      "position": "Research internship",
+      "startDate": "2018-09",
+      "endDate": "2018-12",
+      "highlights": ["Questions at the interface"]
+    },
+    {
+      "name": "Leibniz-Institut für Deutsche Sprache (IDS), Pragmatics, Mannheim",
+      "position": "Research internship",
+      "startDate": "2018-06",
+      "endDate": "2018-07",
+      "highlights": ["Questions at the interface"]
+    },
+    {
+      "name": "Max Kade Institute for German-American Studies in Madison, Wisconsin, USA, with Prof. Mark Louden",
+      "position": "Research internship",
+      "startDate": "2018-02",
+      "endDate": "2018-04",
+      "summary": "Funded by Verband der Freunde der Universität Freiburg e.V.",
+      "highlights": ["Dialectological analyses of Pomerano, Corpus analysis"]
+    },
+    {
+      "name": "AG Pfeiffer, University of Freiburg",
+      "position": "Resarch internship",
+      "startDate": "2017-10",
+      "endDate": "2018-01",
+      "highlights": ["Exclamatives in first language acquisition"]
+    },
+  ],
+  "institutional/organizational activities": [
+    {
+      "organization": "University of Konstanz",
+      "position": "Committee member of the Equal Opportunities Council",
+      "url": "https://www.uni-konstanz.de/en/university/administration-and-organisation/university-bodies-and-committees/university-of-konstanz-committees/equal-opportunity-council/",
+      "startDate": "2022-10",
+      "endDate": ""
+    },
+    {
+      "organization": "University of Konstanz",
+      "position": "Committee member of the Departmental Council of Linguistics",
+      "url": "https://www.uni-konstanz.de/en/university/administration-and-organisation/university-bodies-and-committees/departmental-bodies/department-of-linguistics/departmental-council-of-linguistics/",
+      "startDate": "2023-10",
+      "endDate": ""
+    }
+  ],
+  "grants": [
+    {
+      "title": "Grant for an international research internship",
+      "date": "2018-02",
+      "awarder": "Verband der Freunde der Universität Freiburg e.V.",
+      "url": "https://www.freunde.uni-freiburg.de/",
+      "summary": "3-months-internship at Max-Kade Institute in Madison, Wisconsin, USA"
+    },
+    {
+      "title": "Grant for organizing an International Conference: Human Perspectives on Spoken Human-Machine Interaction",
+      "date": "2018-02",
+      "awarder": "Freiburg Institute of Advanced Sciences (FRIAS)",
+      "url": "https://freidok.uni-freiburg.de/data/223814",
+      "summary": "together with Dr. Daniel Duran, Dr. Iona Gessinger & Dr. Eran Raveh"
+    }
+  ]
+}
