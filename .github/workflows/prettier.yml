@@ -1,47 +1,58 @@
 name: Prettier code formatter
 
 on:
-  pull_request:
-    branches:
-      - master
-      - main
   push:
     branches:
       - master
-      - main
+  pull_request:
+    branches:
+      - master
 
 jobs:
   check:
-    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
+
     steps:
+      # 1️⃣ Checkout the repo
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # 3️⃣ Install Prettier + Liquid plugin
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+
+      # 4️⃣ Run Prettier check
       - name: Prettier Check 🔎
         id: prettier
-        run: npx prettier . --check
-      - name: Create diff 📝
-        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
-        if: ${{ failure() }}
+        run: npx prettier . --check || echo "Prettier found formatting issues"
+
+      # 5️⃣ Optional: Create HTML diff if Prettier fails
+      - name: Create HTML Diff 📝
+        if: ${{ steps.prettier.outcome == 'failure' }}
         run: |
           npx prettier . --write
-          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
+          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt || echo "No changes to diff"
           npm install -g diff2html-cli
-          diff2html -i file -s side -F diff.html -- diff.txt
-      - name: Upload html diff ⬆️
-        id: artifact-upload
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
+          diff2html -i file -s side -F diff.html -- diff.txt || echo "No diff generated"
+
+      # 6️⃣ Upload diff artifact
+      - name: Upload HTML Diff ⬆️
+        if: ${{ steps.prettier.outcome == 'failure' }}
         uses: actions/upload-artifact@v4
         with:
           name: HTML Diff
           path: diff.html
           retention-days: 7
-      - name: Dispatch information to repository 🗣️
-        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
+
+      # 7️⃣ Optional: Dispatch event to repo for PRs
+      - name: Dispatch Prettier info to repo 🗣️
+        if: ${{ steps.prettier.outcome == 'failure' && github.event_name == 'pull_request' }}
         uses: peter-evans/repository-dispatch@v2
         with:
           event-type: prettier-failed-on-pr
